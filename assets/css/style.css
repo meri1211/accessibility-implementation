@@ -27,7 +27,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-/* changed the css selector .header to header as a result of modifying the html*/
+/* changed the css selector .header to header as a result of modifying the html */
 
 
 
@@ -44,7 +44,6 @@ header div {
 
 header div ul {
     list-style-type: none;
-    
 }
 /* changed the css selector .header to header as a result of modifying the html*/
 
@@ -55,8 +54,6 @@ header div ul li {
     margin-left: 25px;
 }
 /* changed the css selector .header to header as a result of modifying the html*/
-
-
 
 a {
     color: #ffffff;
