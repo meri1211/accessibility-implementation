@@ -31,7 +31,7 @@ header h1 .seo {
 
 
 
-header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -39,21 +39,22 @@ header div {
     font-size: 20px;
 }
 /* changed the css selector .header to header as a result of modifying the html*/
+/* replaced div from the css selector's name with the nav semantic tag as this is the only other div inside the header. */
 
-
-
-header div ul {
+header nav ul {
     list-style-type: none;
 }
 /* changed the css selector .header to header as a result of modifying the html*/
+/* replaced div from the css selector's name with its corresponding nav semantic tag. */
 
 
 
-header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 /* changed the css selector .header to header as a result of modifying the html*/
+/* replaced div with nav as shown in the html code and for better readability */
 
 a {
     color: #ffffff;
