@@ -8,42 +8,60 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
+/*modified the css selector .header into header as a result of changing the div with a class of header into the semantic element, header.*/
 
-.header h1 {
+
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
+/* changed the css selector .header to header as a result of modifying the html*/
 
-.header h1 .seo {
+
+header h1 .seo {
     color: #d9dcd6;
 }
+/* changed the css selector .header to header as a result of modifying the html*/
 
-.header div {
+
+
+header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
+/* changed the css selector .header to header as a result of modifying the html*/
 
-.header div ul {
+
+
+header div ul {
     list-style-type: none;
+    
 }
+/* changed the css selector .header to header as a result of modifying the html*/
 
-.header div ul li {
+
+
+header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/* changed the css selector .header to header as a result of modifying the html*/
+
+
 
 a {
     color: #ffffff;
     text-decoration: none;
+
 }
 
 p {
