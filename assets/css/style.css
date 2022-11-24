@@ -92,7 +92,7 @@ section {
 }
 /* replaced the class of .content with the semantic tag section and used it as a selector instead.*/
 
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -102,6 +102,7 @@ section {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+/* modified the css selector .benefits with the aside selector, following the replacement of that div with a class="benefits" with the aside semantic tag. */
 
 .benefit-lead {
     margin-bottom: 32px;
