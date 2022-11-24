@@ -104,7 +104,7 @@ aside {
 }
 /* modified the css selector .benefits with the aside selector, following the replacement of that div with a class="benefits" with the aside semantic tag. */
 
-.benefit-lead {
+/*.benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -115,6 +115,11 @@ aside {
 }
 
 .benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+} */
+/* replaced the divs with the above classes with the semantic tag details and modified the css as follows: */
+details {
     margin-bottom: 32px;
     color: #ffffff;
 }
