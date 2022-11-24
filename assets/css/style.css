@@ -210,7 +210,7 @@ article img {
 }
 /* rewrote the css in order to target the images inside the article element and use less code lines*/
 
-.search-engine-optimization h2 {
+/*.search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -223,7 +223,14 @@ article img {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}    The headings in the above class selectors share the same value and properties and can be targeted as written below: */
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
+/* used h2 as a selector for the above 3 classes as they share the same properties and values*/
+
 
 footer {
     padding: 30px;
