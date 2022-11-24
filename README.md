@@ -16,3 +16,6 @@ N/A
 
 ## Credits
 N/A
+
+## License
+MIT License
