@@ -206,13 +206,15 @@ aside {
     font-size: 36px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+/* changed the class .footer selector to the footer semantic element selector, following the modification of that respective div. */
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
+/* replaced the .footer class selector with the footer semantic selector. */ 
