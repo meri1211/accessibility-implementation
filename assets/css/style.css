@@ -179,7 +179,7 @@ aside {
     color: #ffffff;
 }
 */ 
-/* the 3 selectors targeted above have the exact same properties so we can rewrite the code by targeting their parent element, the article tag. */
+
 
 article {
     margin-bottom: 20px;
@@ -189,8 +189,10 @@ article {
     background-color: #0072bb;
     color: #ffffff;
 }
+/* the 3 selectors targeted above have the exact same properties so we can rewrite the code by targeting their parent element, the article tag. */
 
-.search-engine-optimization img {
+
+/*.search-engine-optimization img {
     max-height: 200px;
 }
 
@@ -201,6 +203,12 @@ article {
 .social-media-marketing img {
     max-height: 200px;
 }
+    Commented out these lines of code as they share the same parent and same property and can be rewritten by having article img as a selector. */
+
+article img {
+    max-height: 200px;
+}
+/* rewrote the css in order to target the images inside the article element and use less code lines*/
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
