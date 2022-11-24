@@ -118,7 +118,7 @@ aside {
     margin-bottom: 32px;
     color: #ffffff;
 } */
-/* replaced the above code and modified the css as follows: */
+/* replaced the above code and modified the css as follows, in order to have less code lines: */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
