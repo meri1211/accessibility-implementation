@@ -85,11 +85,12 @@ p {
     margin-left: 25px;
 }
 
-.content {
+section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+/* replaced the class of .content with the semantic tag section and used it as a selector instead.*/
 
 .benefits {
     margin-right: 20px;
